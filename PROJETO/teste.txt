@@ -1,0 +1,36 @@
+import  "dart:io";
+import 'dart:convert';
+
+void main() {
+
+    String y = "Hello World!";
+    int? x = stdin.readLineSync();
+    String? a;
+
+    if ( (5 > 3) == (5 <= 3) )  {
+        x = 10;
+    } else if( (5 * 3) > 12 && ( x == 1 ) ){
+        int x = 2;
+        print("Teste");
+    } else{
+        print("OK");
+    }    
+
+    for (var letra in palavra){
+        print(letra);
+        y = y + 2;
+        letra = "a";
+    }
+}
+
+double minhaFuncao(String nome, bool x, int numero){
+    double numero = 3 * (x * (-2.5));
+    
+    while(numero > 2){
+        minhaFuncao("teste", (25 != 24), 100);
+        numero = numero - 1;
+    }
+    return numero;
+}
+
+
